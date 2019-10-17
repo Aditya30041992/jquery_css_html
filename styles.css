@@ -1,0 +1,75 @@
+form {
+    margin: 20px 0;
+}
+
+form input,
+button {
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 3px solid #cdcdcd;
+    text-align: left;
+    padding: 8px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.main {
+    background-color: #505050	
+}
+.main {
+    padding: 20px;
+    background-color: #505050;
+  }
+
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .main {background:#C8C8C8;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .main {background:#A0A0A0;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .main {background:#808080;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .main {background: #606060;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .main {background:#383838;}
+  }
+.responsive {
+   overflow-x:auto;
+}
+
+tr:nth-child(even) {
+    background-color:#A9A9A9;
+  }
+
+  tr:nth-child(odd) {
+    background-color:#888888;
+  }
+
+

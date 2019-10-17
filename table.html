@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Add / Remove Table Rows Dynamically</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="code.js"></script>
+</head>
+
+<body class="main">
+    <div class="responsive">
+        <div class="row">
+
+            <form class="form">
+                <div class="col-3 col-s-3 menu">
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="text" id="email" placeholder="Email Address">
+                    <input type="button" class="add-row" value="Add Row">
+                </div>
+            </form>
+            <table class="responsive">
+                <div class="col-3 col-s-12">
+                    <div class="aside">
+                        <thead>
+                            <tr>
+                                <th>Select</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" name="record"></td>
+                                <td>Sushant Rajhans</td>
+                                <td>sushantRajhans@gmail.com</td>
+                            </tr>
+                        </tbody>
+                    </div>
+                </div>
+            </table>
+            <button type="button" class="delete-row">Delete Row</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
